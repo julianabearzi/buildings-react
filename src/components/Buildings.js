@@ -1,6 +1,6 @@
 import Item from './Item';
 
-const Buildings = ({ buildings }) => {
+const Buildings = ({ buildings, onDelete }) => {
   return (
     <>
       <h1 className='title-building'>Buildings</h1>
@@ -13,7 +13,7 @@ const Buildings = ({ buildings }) => {
           <h3>Phone</h3>
         </div>
         {buildings.map((building) => (
-          <Item key={building.id} building={building} />
+          <Item key={building.id} building={building} onDelete={onDelete} />
         ))}
       </div>
     </>

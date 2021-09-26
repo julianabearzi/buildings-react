@@ -14,10 +14,14 @@ function App() {
     getBuildings();
   }, []);
 
+  const deleteBuilding = (id) => {
+    setBuildings(buildings.filter((building) => building.id !== id));
+  };
+
   return (
     <div className='App'>
       <Header />
-      <Buildings buildings={buildings} />
+      <Buildings buildings={buildings} onDelete={deleteBuilding} />
     </div>
   );
 }
