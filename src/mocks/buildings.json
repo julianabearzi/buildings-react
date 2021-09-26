@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "name": "skyscraper",
+    "address": "rioja 1700",
+    "type": "618",
+    "phone": "341345621"
+  },
+  {
+    "id": "2",
+    "name": "building four",
+    "address": "san luis 2000",
+    "type": "614",
+    "phone": "34155555"
+  },
+  {
+    "id": "3",
+    "name": "building five",
+    "address": "catamarca 2000",
+    "type": "613",
+    "phone": "99955555"
+  },
+  {
+    "id": "4",
+    "name": "building six",
+    "address": "tucuman 2000",
+    "type": "619",
+    "phone": "99955555"
+  },
+  {
+    "id": "5",
+    "name": "building acd",
+    "address": "moreno 999",
+    "type": "618",
+    "phone": "123123123"
+  },
+  {
+    "id": "6",
+    "name": "home",
+    "address": "Boulevard ev 1117",
+    "type": "615",
+    "phone": "3436278691"
+  },
+  {
+    "id": "7",
+    "name": "building of your dreams",
+    "address": "Montevideo 2500",
+    "type": "615",
+    "phone": "34123456"
+  },
+  {
+    "id": "8",
+    "name": "suites & towers",
+    "address": "San luis 1111",
+    "type": "619",
+    "phone": "111111"
+  },
+  {
+    "id": "9",
+    "name": "one",
+    "address": "Rioja 1111",
+    "type": "619",
+    "phone": "9999999"
+  },
+  {
+    "id": "10",
+    "name": "bridge",
+    "address": "Lavalle 234",
+    "type": "613",
+    "phone": "34177829"
+  },
+  {
+    "id": "11",
+    "name": "lahan",
+    "address": "Pellegrini 900",
+    "type": "618",
+    "phone": "34177829"
+  },
+  {
+    "id": "12",
+    "name": "kama",
+    "address": "Boulevard 1900",
+    "type": "615",
+    "phone": "122322433"
+  },
+  {
+    "id": "13",
+    "name": "the building",
+    "address": "Av Ramirez 2000",
+    "type": "618",
+    "phone": "342342342"
+  },
+  {
+    "id": "14",
+    "name": "barahan",
+    "address": "Urquiza 2000",
+    "type": "618",
+    "phone": "342342342"
+  },
+  {
+    "id": "15",
+    "name": "mid",
+    "address": "Sarmiento 3000",
+    "type": "618",
+    "phone": "154989898"
+  }
+]

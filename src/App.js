@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Mock from './mocks/buildings.json';
+import Buildings from './components/Buildings';
 
 function App() {
+  const [buildings, setBuildings] = useState([]);
+
+  useEffect(() => {
+    const getBuildings = () => {
+      setBuildings(Mock);
+    };
+
+    getBuildings();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header />
+      <Buildings buildings={buildings} />
     </div>
   );
 }
