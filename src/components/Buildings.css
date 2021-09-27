@@ -26,7 +26,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 14.6rem;
+  width: 18rem;
   font-family: 'Courier New', Courier, monospace;
   padding-left: 2rem;
 }
@@ -47,16 +47,62 @@
   flex-direction: row;
   padding: 0 1rem;
 }
+
 .container-building h3:nth-child(1) {
-  padding-left: 2rem;
   width: 10%;
 }
+
 .container-building h3 {
-  width: 30%;
-  margin-right: 2rem;
+  width: 25%;
+  margin-left: 1rem;
 }
+
 .container .btn {
   margin-left: 1rem;
-  width: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin-left: 1rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 1rem;
+}
+
+.form-control label {
+  font-weight: bolder;
+}
+
+.form-control input {
+  width: 200px;
   height: 20px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 12px;
+}
+
+.btn-form {
+  margin-left: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.btn-form:hover {
+  transform: scale(0.98);
+  text-decoration: underline;
 }

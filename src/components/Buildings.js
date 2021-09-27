@@ -3,7 +3,6 @@ import Item from './Item';
 const Buildings = ({ buildings, onDelete }) => {
   return (
     <>
-      <h1 className='title-building'>Buildings</h1>
       <div className='container'>
         <div className='container-building'>
           <h3>ID</h3>
