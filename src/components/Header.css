@@ -23,18 +23,3 @@ span {
   font-size: 4rem;
   color: rgb(184, 5, 5);
 }
-
-.title-buildings {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.title-buildings .btn-add {
-  width: 30px;
-  height: 30px;
-  margin-left: 0.5rem;
-  margin-top: 0.5rem;
-  color: rgba(134, 9, 9, 0.76);
-  cursor: pointer;
-}

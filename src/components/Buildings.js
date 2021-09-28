@@ -1,8 +1,9 @@
 import Item from './Item';
 
-const Buildings = ({ buildings, onDelete }) => {
+const Buildings = ({ buildings, onDelete, editItem }) => {
   return (
     <>
+      <h2 className='title-building'>Buildings</h2>
       <div className='container'>
         <div className='container-building'>
           <h3>ID</h3>
@@ -12,7 +13,12 @@ const Buildings = ({ buildings, onDelete }) => {
           <h3>Phone</h3>
         </div>
         {buildings.map((building) => (
-          <Item key={building.id} building={building} onDelete={onDelete} />
+          <Item
+            key={building.id}
+            building={building}
+            onDelete={onDelete}
+            editItem={editItem}
+          />
         ))}
       </div>
     </>

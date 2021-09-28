@@ -18,7 +18,7 @@ const AddBuilding = ({ onAdd }) => {
   };
 
   return (
-    <form className='add-form' onSubmit={onSubmit}>
+    <form className='form' onSubmit={onSubmit}>
       <div className='form-control'>
         <label>Name</label>
         <input
@@ -60,7 +60,7 @@ const AddBuilding = ({ onAdd }) => {
         />
       </div>
 
-      <input type='submit' value='Save' className='btn-form' />
+      <input type='submit' value='Add' className='btn-form' />
     </form>
   );
 };

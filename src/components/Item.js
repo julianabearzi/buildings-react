@@ -1,7 +1,7 @@
 import './Buildings.css';
 import { FaTimes, FaEdit } from 'react-icons/fa';
 
-const Item = ({ building, onDelete }) => {
+const Item = ({ building, onDelete, editItem }) => {
   return (
     <div className='container-item'>
       <div className='item'>{building.id}</div>
@@ -14,7 +14,11 @@ const Item = ({ building, onDelete }) => {
         style={{ cursor: 'pointer' }}
         onClick={() => onDelete(building.id)}
       />
-      <FaEdit className='btn' style={{ cursor: 'pointer' }} />
+      <FaEdit
+        className='btn'
+        style={{ cursor: 'pointer' }}
+        onClick={() => editItem(building)}
+      />
     </div>
   );
 };
